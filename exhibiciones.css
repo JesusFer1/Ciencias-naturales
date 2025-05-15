@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing:border-box;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: #d4ca97;
+    justify-items: center;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+}
+.titulo{
+    border-radius: 10px;
+    background-color: #ffffff80;
+    margin: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+p{
+    color: whitesmoke;
+    margin-bottom:40px ;
+    font-size:18px ;
+    padding: 0 100px;
+}
+
+.head .logo img{
+height: 210px;
+width: auto;
+transition: all 0.3s;
+padding-left: 0px;
+}
+.head .logo img:hover{
+transform: scale(1.2) ;
+}
+.head{
+width: 100%;
+padding: 10px ;
+padding-bottom: 0px;
+display: flex;
+align-content: center;
+justify-content: space-between;
+height: 80px;
+border: #101010;
+background-color: white;
+}
+
+.head .logo{
+
+cursor: pointer;
+padding-left: 5px;
+}
+.head .navbar{
+margin-top: 20px;
+list-style: none;
+}
+.head .navbar a{ 
+background-color: white;
+display: inline-block;
+padding: 0 20px;
+font-size: 700;
+color: rgb(0, 0, 0);
+text-decoration: none;
+} 
+.head .navbar a:hover{
+transform: scale(1.1);
+color: antiquewhite;
+background: #4e2222;
+border-radius: 3px;
+}
+.cartas{
+display: flex;
+}
+.card h2{
+margin-top: 10px; ;
+}
+.card{
+margin: 20px;
+width:800px;
+height: auto;
+border-radius: 10px;
+border: 10px;
+box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+overflow: hidden;
+text-align: center center;
+color: rgb(0, 0, 0); 
+text-align:center;
+
+}
+.seccion{
+border-radius: 20px;
+background-color: #f8f8f880 ;
+}
+
+.contenedor{
+    display: flex;
+    margin-left: 10px;
+    width: 100%;
+    max-width: 3000px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.columnas{
+    display: flex;
+    margin-left: 10px;
+
+}
+
+.columna {
+    position: relative;
+    flex: 1;
+    margin: 0 10px; 
+    flex-wrap: wrap;
+}
+
+.texto {
+    text-align: center;
+    background-color: rgba(41, 36, 36, 0.452);
+    border-radius: 10px;
+   text-shadow: 2px 2px 0px black;
+   color: white;
+   flex-wrap: wrap;
+}
+
+.columna img {
+ 
+    width: 200;
+    height: 250;
+    display: block;
+    
+  }
+
+.derechos{
+    background-color: #10101062;
+}
+
+.contenedorvideo {
+    text-align: center;
+    display: flex;
+}
+
+.textos {
+    
+ color: rgb(0, 0, 0);
+ text-shadow: 5px 5px 5px rgb(255, 255, 255);
+}
+
+.video {
+    border: 10px ;
+}
